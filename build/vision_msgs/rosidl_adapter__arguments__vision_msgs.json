@@ -1,0 +1,21 @@
+{
+  "package_name": "vision_msgs",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/BoundingBox2D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/BoundingBox2DArray.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/BoundingBox3D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/BoundingBox3DArray.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Classification.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Detection2DArray.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Detection2D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Detection3DArray.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Detection3D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/LabelInfo.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/ObjectHypothesis.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/ObjectHypothesisWithPose.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/VisionClass.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Point2D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/Pose2D.msg",
+    "/workspaces/isaac_ros-dev/src/vision_msgs-ros2/vision_msgs:msg/VisionInfo.msg"
+  ]
+}

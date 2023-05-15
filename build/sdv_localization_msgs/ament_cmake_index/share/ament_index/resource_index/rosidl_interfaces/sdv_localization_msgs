@@ -1,0 +1,4 @@
+msg/SensorDiag.idl
+msg/SensorDiag.msg
+msg/SensorStatArray.idl
+msg/SensorStatArray.msg

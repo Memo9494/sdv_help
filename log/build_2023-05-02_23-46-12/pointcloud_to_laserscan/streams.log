@@ -1,0 +1,100 @@
+[0.132s] Invoking command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/sdv_localization/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan
+[0.484s] -- The C compiler identification is GNU 9.4.0
+[0.839s] -- The CXX compiler identification is GNU 9.4.0
+[0.876s] -- Detecting C compiler ABI info
+[1.217s] -- Detecting C compiler ABI info - done
+[1.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.251s] -- Detecting C compile features - done
+[1.264s] -- Detecting CXX compiler ABI info
+[1.625s] -- Detecting CXX compiler ABI info - done
+[1.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.659s] -- Detecting CXX compile features
+[1.661s] -- Detecting CXX compile features - done
+[1.681s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[6.366s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[8.511s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[8.646s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[8.758s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[8.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.369s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[9.409s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[10.236s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.439s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[10.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.667s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[13.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.842s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/sdv_localization/pointcloud_to_laserscan/include
+[13.842s] -- Configured cppcheck exclude dirs and/or files: 
+[13.853s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.853s] -- Configured cpplint exclude dirs and/or files: 
+[13.858s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.868s] -- Added test 'lint_cmake' to check CMake code style
+[13.882s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.882s] -- Added test 'uncrustify' to check C / C++ code style
+[13.883s] -- Configured uncrustify additional arguments: 
+[13.886s] -- Added test 'xmllint' to check XML markup files
+[13.911s] -- Configuring done
+[14.228s] -- Generating done
+[14.240s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/pointcloud_to_laserscan
+[14.313s] Invoked command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/sdv_localization/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan
+[14.324s] Invoking command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/pointcloud_to_laserscan -- -j8 -l8
+[15.462s] [ 10%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[66.156s] [ 20%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[68.059s] [ 20%] Built target laserscan_to_pointcloud
+[68.123s] [ 30%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[80.513s] [ 40%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[80.964s] [ 40%] Built target pointcloud_to_laserscan_node
+[81.034s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[132.891s] [ 60%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[135.005s] [ 60%] Built target pointcloud_to_laserscan
+[135.108s] [ 70%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[150.759s] [ 80%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[151.350s] [ 80%] Built target laserscan_to_pointcloud_node
+[151.432s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[172.093s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[173.036s] [100%] Built target dummy_pointcloud_publisher
+[173.169s] Invoked command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/pointcloud_to_laserscan -- -j8 -l8
+[173.469s] Invoking command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/pointcloud_to_laserscan
+[310.245s] -- Install configuration: ""
+[310.245s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[310.245s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""
+[310.246s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[310.246s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+[310.246s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/include
+[310.247s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[310.247s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[310.247s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[310.248s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[310.248s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[310.248s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[310.249s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[310.249s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""
+[310.249s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[310.250s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[310.250s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[310.250s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[310.251s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[310.251s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[310.251s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[310.251s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[310.252s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[310.252s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[310.254s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[310.254s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[310.254s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[310.255s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[310.255s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[310.255s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[310.256s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[310.281s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[310.281s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[310.282s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[310.282s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[310.282s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[310.282s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[310.283s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[310.283s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[310.283s] -- Installing: /workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[310.286s] Invoked command in '/workspaces/isaac_ros-dev/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/pointcloud_to_laserscan

@@ -1,0 +1,48 @@
+{
+  "package_name": "multisense_msgs",
+  "output_dir": "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_generator_py/multisense_msgs",
+  "template_dir": "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceInfo.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamConfig.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawImuData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamCal.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarCal.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/Histogram.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceStatus.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/StampedPps.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/DeviceInfo.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamConfig.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawImuData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawLidarData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamCal.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamData.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawLidarCal.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/Histogram.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/DeviceStatus.idl",
+    "/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/StampedPps.idl",
+    "/opt/ros/humble/install/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

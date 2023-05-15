@@ -1,0 +1,161 @@
+[2.102s] Invoking command in '/workspaces/isaac_ros-dev/build/sdv_localization_msgs': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/sdv_localization_msgs -- -j8 -l8
+[3.107s] [  2%] Built target sdv_localization_msgs__cpp
+[3.107s] [ 12%] Built target sdv_localization_msgs__rosidl_generator_c
+[3.108s] [ 12%] Built target ament_cmake_python_copy_sdv_localization_msgs
+[3.108s] [ 23%] Built target sdv_localization_msgs__rosidl_typesupport_fastrtps_cpp
+[3.108s] [ 33%] Built target sdv_localization_msgs__rosidl_typesupport_cpp
+[3.109s] [ 43%] Built target sdv_localization_msgs__rosidl_typesupport_c
+[3.109s] [ 53%] Built target sdv_localization_msgs__rosidl_typesupport_introspection_c
+[3.109s] [ 64%] Built target sdv_localization_msgs__rosidl_typesupport_introspection_cpp
+[3.110s] [ 74%] Built target sdv_localization_msgs__rosidl_typesupport_fastrtps_c
+[3.258s] [ 74%] Built target sdv_localization_msgs
+[3.403s] [ 76%] Built target sdv_localization_msgs__py
+[3.587s] [ 84%] Built target sdv_localization_msgs__rosidl_generator_py
+[3.810s] [ 89%] Built target sdv_localization_msgs__rosidl_typesupport_c__pyext
+[3.821s] [ 94%] Built target sdv_localization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.829s] [100%] Built target sdv_localization_msgs__rosidl_typesupport_introspection_c__pyext
+[4.760s] running egg_info
+[4.837s] writing sdv_localization_msgs.egg-info/PKG-INFO
+[4.838s] writing dependency_links to sdv_localization_msgs.egg-info/dependency_links.txt
+[4.839s] writing top-level names to sdv_localization_msgs.egg-info/top_level.txt
+[5.021s] reading manifest file 'sdv_localization_msgs.egg-info/SOURCES.txt'
+[5.022s] writing manifest file 'sdv_localization_msgs.egg-info/SOURCES.txt'
+[5.190s] [100%] Built target ament_cmake_python_build_sdv_localization_msgs_egg
+[5.342s] Invoked command in '/workspaces/isaac_ros-dev/build/sdv_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/sdv_localization_msgs -- -j8 -l8
+[6.618s] Invoking command in '/workspaces/isaac_ros-dev/build/sdv_localization_msgs': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/sdv_localization_msgs
+[6.660s] -- Install configuration: ""
+[6.660s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/ament_index/resource_index/rosidl_interfaces/sdv_localization_msgs
+[6.661s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.661s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.662s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.663s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/sensor_stat_array.h
+[6.664s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/sensor_diag.h
+[6.664s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.664s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__functions.c
+[6.665s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__struct.h
+[6.665s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__functions.h
+[6.665s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__functions.h
+[6.666s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__type_support.h
+[6.666s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__struct.h
+[6.668s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__type_support.h
+[6.685s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__functions.c
+[6.686s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/library_path.sh
+[6.687s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/library_path.dsv
+[6.687s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_generator_c.so
+[6.688s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.689s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.689s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.690s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.694s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__rosidl_typesupport_fastrtps_c.h
+[6.696s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__rosidl_typesupport_fastrtps_c.h
+[6.697s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_fastrtps_c.so
+[6.697s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.697s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.698s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/sensor_stat_array.hpp
+[6.698s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.698s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__traits.hpp
+[6.699s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__traits.hpp
+[6.699s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__struct.hpp
+[6.699s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__builder.hpp
+[6.700s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__struct.hpp
+[6.700s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__builder.hpp
+[6.701s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/sensor_diag.hpp
+[6.701s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.701s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.702s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.702s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.710s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/dds_fastrtps
+[6.710s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.711s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__rosidl_typesupport_fastrtps_cpp.hpp
+[6.711s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.717s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.717s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.717s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.718s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__rosidl_typesupport_introspection_c.h
+[6.718s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__type_support.c
+[6.718s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__type_support.c
+[6.720s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__rosidl_typesupport_introspection_c.h
+[6.720s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.721s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_introspection_c.so
+[6.721s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_c.so
+[6.721s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs
+[6.721s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg
+[6.742s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail
+[6.749s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__type_support.cpp
+[6.749s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__type_support.cpp
+[6.750s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_stat_array__rosidl_typesupport_introspection_cpp.hpp
+[6.750s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/include/sdv_localization_msgs/sdv_localization_msgs/msg/detail/sensor_diag__rosidl_typesupport_introspection_cpp.hpp
+[6.750s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_introspection_cpp.so
+[6.750s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_typesupport_cpp.so
+[6.751s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/pythonpath.sh
+[6.751s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/pythonpath.dsv
+[6.752s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs-3.0.0-py3.8.egg-info
+[6.752s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs-3.0.0-py3.8.egg-info/top_level.txt
+[6.752s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs-3.0.0-py3.8.egg-info/dependency_links.txt
+[6.753s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs-3.0.0-py3.8.egg-info/SOURCES.txt
+[6.753s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs-3.0.0-py3.8.egg-info/PKG-INFO
+[6.754s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs
+[6.754s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/__init__.py
+[6.754s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/libsdv_localization_msgs__rosidl_generator_py.so
+[6.755s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.755s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg
+[6.755s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg/__init__.py
+[6.755s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg/_sensor_stat_array.py
+[6.756s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg/_sensor_stat_array_s.c
+[6.756s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg/_sensor_diag_s.c
+[6.756s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg/_sensor_diag.py
+[6.757s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/_sdv_localization_msgs_s.ep.rosidl_typesupport_c.c
+[6.757s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.757s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/_sdv_localization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.757s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/_sdv_localization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.764s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.908s] Listing '/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs'...
+[6.908s] Listing '/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/msg'...
+[6.923s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.925s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.927s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages/sdv_localization_msgs/sdv_localization_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.928s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/libsdv_localization_msgs__rosidl_generator_py.so
+[6.935s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/msg/SensorDiag.idl
+[6.936s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/msg/SensorStatArray.idl
+[6.936s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/msg/SensorDiag.msg
+[6.937s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/msg/SensorStatArray.msg
+[6.937s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/ament_index/resource_index/package_run_dependencies/sdv_localization_msgs
+[6.937s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/ament_index/resource_index/parent_prefix_path/sdv_localization_msgs
+[6.938s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/ament_prefix_path.sh
+[6.938s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/ament_prefix_path.dsv
+[6.938s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/path.sh
+[6.939s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/environment/path.dsv
+[6.939s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/local_setup.bash
+[6.939s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/local_setup.sh
+[6.940s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/local_setup.zsh
+[6.940s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/local_setup.dsv
+[6.940s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/package.dsv
+[6.941s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/ament_index/resource_index/packages/sdv_localization_msgs
+[6.941s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_generator_cExport.cmake
+[6.942s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.942s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.943s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.943s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_generator_cppExport.cmake
+[6.943s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.943s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.945s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.945s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.946s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_cExport.cmake
+[6.955s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.958s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_cppExport.cmake
+[6.958s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.958s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_generator_pyExport.cmake
+[6.958s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/export_sdv_localization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.959s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/rosidl_cmake-extras.cmake
+[6.959s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.959s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.960s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.960s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.960s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.960s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.961s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgsConfig.cmake
+[6.961s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/cmake/sdv_localization_msgsConfig-version.cmake
+[6.961s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization_msgs/share/sdv_localization_msgs/package.xml
+[7.004s] Invoked command in '/workspaces/isaac_ros-dev/build/sdv_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/sdv_localization_msgs

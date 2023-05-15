@@ -1,0 +1,88 @@
+[0.121s] Invoking command in '/workspaces/isaac_ros-dev/build/xacro': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/xacro -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/xacro
+[13.223s] -- The C compiler identification is GNU 9.4.0
+[13.223s] -- The CXX compiler identification is GNU 9.4.0
+[13.224s] -- Detecting C compiler ABI info
+[13.224s] -- Detecting C compiler ABI info - done
+[13.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.225s] -- Detecting C compile features
+[13.225s] -- Detecting C compile features - done
+[13.225s] -- Detecting CXX compiler ABI info
+[13.226s] -- Detecting CXX compiler ABI info - done
+[13.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.227s] -- Detecting CXX compile features
+[13.227s] -- Detecting CXX compile features - done
+[13.227s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[13.245s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[13.252s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[13.253s] -- Configuring done
+[13.253s] -- Generating done
+[13.254s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/xacro
+[13.303s] Invoked command in '/workspaces/isaac_ros-dev/build/xacro' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/xacro -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/xacro
+[13.307s] Invoking command in '/workspaces/isaac_ros-dev/build/xacro': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/xacro -- -j8 -l8
+[29.620s] Built target ament_cmake_python_copy_xacro_setup
+[29.622s] Built target ament_cmake_python_copy_xacro
+[29.626s] running egg_info
+[29.626s] creating xacro.egg-info
+[29.636s] writing xacro.egg-info/PKG-INFO
+[29.637s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[29.637s] writing entry points to xacro.egg-info/entry_points.txt
+[29.637s] writing top-level names to xacro.egg-info/top_level.txt
+[29.638s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[29.638s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[29.638s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[29.639s] Built target ament_cmake_python_build_xacro_egg
+[29.639s] running install_scripts
+[29.639s] running egg_info
+[29.639s] writing xacro.egg-info/PKG-INFO
+[29.640s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[29.641s] writing entry points to xacro.egg-info/entry_points.txt
+[29.641s] writing top-level names to xacro.egg-info/top_level.txt
+[29.641s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[29.642s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[29.642s] Installing xacro script to scripts
+[29.642s] Built target ament_cmake_python_build_xacro_scripts
+[29.663s] Invoked command in '/workspaces/isaac_ros-dev/build/xacro' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/xacro -- -j8 -l8
+[29.900s] Invoking command in '/workspaces/isaac_ros-dev/build/xacro': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/xacro
+[37.465s] -- Install configuration: ""
+[37.470s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/completion.bash
+[37.472s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/pythonpath.sh
+[37.473s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/pythonpath.dsv
+[37.483s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info
+[37.484s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/entry_points.txt
+[37.484s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/top_level.txt
+[37.485s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/dependency_links.txt
+[37.485s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/SOURCES.txt
+[37.486s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/PKG-INFO
+[37.486s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/xacro/
+[37.486s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/xacro//xacro
+[37.487s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro
+[37.487s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/__init__.py
+[37.487s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/substitution_args.py
+[37.488s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/color.py
+[37.488s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/xmlutils.py
+[37.488s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/cli.py
+[37.488s] Listing '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro'...
+[37.489s] Compiling '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/__init__.py'...
+[37.489s] Compiling '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/cli.py'...
+[37.489s] Compiling '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/color.py'...
+[37.490s] Compiling '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/substitution_args.py'...
+[37.490s] Compiling '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/xmlutils.py'...
+[37.491s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/bin/
+[37.491s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/bin//xacro
+[37.491s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro
+[37.492s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro
+[37.492s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/ament_prefix_path.sh
+[37.492s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/ament_prefix_path.dsv
+[37.492s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/path.sh
+[37.493s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/path.dsv
+[37.493s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.bash
+[37.493s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.sh
+[37.494s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.zsh
+[37.494s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.dsv
+[37.495s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/package.dsv
+[37.496s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/packages/xacro
+[37.496s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacro-extras.cmake
+[37.497s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacroConfig.cmake
+[37.497s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacroConfig-version.cmake
+[37.497s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/package.xml
+[37.542s] Invoked command in '/workspaces/isaac_ros-dev/build/xacro' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/xacro

@@ -1,0 +1,5 @@
+  File "/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py", line 173
+    self._pub.publish(detectionsYOLO node to subscribe to a ROS2 topic that provides image data (e.g., sensor_msgs/Image). _msg) #change
+                                     ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,9 @@
+setup.py
+sdv_msg/__init__.py
+sdv_msg.egg-info/PKG-INFO
+sdv_msg.egg-info/SOURCES.txt
+sdv_msg.egg-info/dependency_links.txt
+sdv_msg.egg-info/top_level.txt
+sdv_msg/msg/__init__.py
+sdv_msg/msg/_panel_msg.py
+sdv_msg/msg/_xbox_msg.py

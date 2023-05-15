@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/multisense_msgs/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/humble/install/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/multisense_msgs/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages",
+        "/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/humble/install/lib/python3.8/site-packages"
+    ]
+}

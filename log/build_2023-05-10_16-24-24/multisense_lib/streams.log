@@ -1,0 +1,70 @@
+[3.053s] Invoking command in '/workspaces/isaac_ros-dev/build/multisense_lib': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/multisense_lib -- -j8 -l8
+[3.350s] [ 20%] Built target MultiSense
+[3.664s] [ 25%] Built target ChangeFps
+[3.731s] [ 30%] Built target ChangeTransmitDelay
+[3.766s] [ 34%] Built target ChangeResolution
+[3.807s] [ 39%] Built target ChangeIpUtility
+[3.858s] [ 44%] Built target DeviceInfoUtility
+[3.867s] [ 48%] Built target DirectedStreamsUtility
+[3.874s] [ 53%] Built target ExternalCalUtility
+[3.944s] [ 58%] Built target FlashUtility
+[4.257s] [ 62%] Built target ImuConfigUtility
+[4.260s] [ 67%] Built target ImageCalUtility
+[4.302s] [ 72%] Built target LidarCalUtility
+[4.313s] [ 76%] Built target ImuTestUtility
+[4.336s] [ 81%] Built target PointCloudUtility
+[4.345s] [ 86%] Built target ColorImageUtility
+[4.357s] [ 90%] Built target SaveImageUtility
+[4.358s] [ 95%] Built target SensorCalUtility
+[4.493s] [100%] Built target VersionInfoUtility
+[4.540s] Invoked command in '/workspaces/isaac_ros-dev/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/multisense_lib -- -j8 -l8
+[5.277s] Invoking command in '/workspaces/isaac_ros-dev/build/multisense_lib': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/multisense_lib
+[5.321s] -- Install configuration: "Release"
+[5.323s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/library_path.sh
+[5.323s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/library_path.dsv
+[5.324s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/ament_index/resource_index/package_run_dependencies/multisense_lib
+[5.324s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/ament_index/resource_index/parent_prefix_path/multisense_lib
+[5.325s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.sh
+[5.325s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.dsv
+[5.325s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/path.sh
+[5.326s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/environment/path.dsv
+[5.327s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/local_setup.bash
+[5.327s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/local_setup.sh
+[5.327s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/local_setup.zsh
+[5.328s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/local_setup.dsv
+[5.328s] -- Installing: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/package.dsv
+[5.328s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/ament_index/resource_index/packages/multisense_lib
+[5.329s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.329s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_libraries-extras.cmake
+[5.329s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig.cmake
+[5.330s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig-version.cmake
+[5.330s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/share/multisense_lib/package.xml
+[5.331s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/libMultiSense.so.4.1.0
+[5.335s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/libMultiSense.so
+[5.336s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[5.337s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[5.337s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets.cmake
+[5.338s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets-release.cmake
+[5.338s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfig.cmake
+[5.339s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfigVersion.cmake
+[5.340s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[5.340s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[5.341s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ChangeFps
+[5.350s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ChangeIpUtility
+[5.353s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ChangeResolution
+[5.355s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ChangeTransmitDelay
+[5.358s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/DirectedStreamsUtility
+[5.360s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/DeviceInfoUtility
+[5.363s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ExternalCalUtility
+[5.364s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/MultiSenseUpdater
+[5.365s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/FlashUtility
+[5.367s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ImageCalUtility
+[5.370s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ImuConfigUtility
+[5.373s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ImuTestUtility
+[5.375s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/LidarCalUtility
+[5.378s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/PointCloudUtility
+[5.381s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/ColorImageUtility
+[5.384s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/SaveImageUtility
+[5.387s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/SensorCalUtility
+[5.390s] -- Up-to-date: /workspaces/isaac_ros-dev/install/multisense_lib/bin/VersionInfoUtility
+[5.409s] Invoked command in '/workspaces/isaac_ros-dev/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/multisense_lib

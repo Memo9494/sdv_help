@@ -1,0 +1,24 @@
+[5.605s] Invoking command in '/workspaces/isaac_ros-dev/src/yolov8_ros/yolov8_ros': PYTHONPATH=/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /workspaces/isaac_ros-dev/build/yolov8_ros/build install --prefix /workspaces/isaac_ros-dev/install/yolov8_ros --record /workspaces/isaac_ros-dev/build/yolov8_ros/install.log --single-version-externally-managed
+[7.351s] running egg_info
+[7.408s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[7.409s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[7.410s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[7.411s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[7.411s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[7.525s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[7.528s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[7.529s] running build
+[7.529s] running build_py
+[7.530s] copying yolov8_ros/yolov8_node.py -> /workspaces/isaac_ros-dev/build/yolov8_ros/build/lib/yolov8_ros
+[7.530s] running install
+[7.548s] running install_lib
+[7.603s] copying /workspaces/isaac_ros-dev/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[7.605s] byte-compiling /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-38.pyc
+[7.610s] running install_data
+[7.665s] running install_egg_info
+[7.722s] removing '/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[7.723s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info
+[7.727s] running install_scripts
+[7.973s] Installing yolov8_node script to /workspaces/isaac_ros-dev/install/yolov8_ros/lib/yolov8_ros
+[7.974s] writing list of installed files to '/workspaces/isaac_ros-dev/build/yolov8_ros/install.log'
+[8.694s] Invoked command in '/workspaces/isaac_ros-dev/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /workspaces/isaac_ros-dev/build/yolov8_ros/build install --prefix /workspaces/isaac_ros-dev/install/yolov8_ros --record /workspaces/isaac_ros-dev/build/yolov8_ros/install.log --single-version-externally-managed

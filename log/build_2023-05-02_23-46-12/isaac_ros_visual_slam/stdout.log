@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_BUILD_TYPE: Release
+-- Architecture: aarch64
+-- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/humble/install/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+-- Found launch_testing_ament_cmake: 1.0.2 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_visual_slam/isaac_ros_visual_slam/elbrus/include;/workspaces/isaac_ros-dev/src/isaac_ros_visual_slam/isaac_ros_visual_slam/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_visual_slam
+[  8%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/visual_slam_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/viz_helper.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/qos.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/visual_slam_impl.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/posegraph_vis_helper.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/pose_cache.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/localizer_vis_helper.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/landmarks_vis_helper.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/visual_slam_node.dir/src/impl/elbrus_ros_convertion.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libvisual_slam_node.so[0m
+[ 83%] Built target visual_slam_node
+[ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_visual_slam.dir/src/visual_slam_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable isaac_ros_visual_slam[0m
+[100%] Built target isaac_ros_visual_slam
+-- Install configuration: "Release"
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/bin/isaac_ros_visual_slam
+-- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/bin/isaac_ros_visual_slam" to ""
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/elbrus
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/elbrus/libelbrus.so
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/qos.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/elbrus_ros_convertion.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/localizer_vis_helper.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/visual_slam_impl.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/posegraph_vis_helper.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/stopwatch.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/viz_helper.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/limited_vector.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/landmarks_vis_helper.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/pose_cache.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/impl/has_subscribers.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/include/isaac_ros_visual_slam/visual_slam_node.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/library_path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/library_path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/lib/libvisual_slam_node.so
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/lib/isaac_ros_visual_slam/isaac_ros_visual_slam
+-- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/lib/isaac_ros_visual_slam/isaac_ros_visual_slam" to ""
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/.isaac_ros_visual_slam.launch.py.swm
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-04-22_16.20.04.pdf
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_01.13.10.gv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-04-22_16.20.04.gv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/.isaac_ros_visual_slam.launch.py.swl
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/latest_build
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-15_20-54-51
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-15_20-54-51/events.log
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-15_20-54-51/logger_all.log
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/COLCON_IGNORE
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-16_00-00-03
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-16_00-00-03/events.log
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/build_2023-02-16_00-00-03/logger_all.log
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/log/latest
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-02-21_21.43.40.pdf
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/isaac_ros_visual_slam_realsense.launch.py.save
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_01.10.37.pdf
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/rviz.rviz
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_00.50.46.pdf
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/isaac_ros_visual_slam_isaac_sim.launch.py
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/isaac_ros_visual_slam_realsense.launch.py
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_01.10.37.gv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/__pycache__
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/__pycache__/isaac_ros_visual_slam.launch.cpython-38.pyc
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/__pycache__/isaac_ros_visual_slam_isaac_sim.launch.cpython-38.pyc
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/.isaac_ros_visual_slam.launch.py.swo
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_01.13.10.pdf
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/isaac_ros_visual_slam.launch.py
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/.isaac_ros_visual_slam.launch.py.swn
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-03-01_00.50.46.gv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/launch/frames_2023-02-21_21.43.40.gv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/ament_index/resource_index/package_run_dependencies/isaac_ros_visual_slam
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/ament_index/resource_index/parent_prefix_path/isaac_ros_visual_slam
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/ament_prefix_path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/environment/path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/local_setup.bash
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/local_setup.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/local_setup.zsh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/local_setup.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/package.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/ament_index/resource_index/packages/isaac_ros_visual_slam
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/ament_index/resource_index/rclcpp_components/isaac_ros_visual_slam
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/cmake/isaac_ros_visual_slamConfig.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/cmake/isaac_ros_visual_slamConfig-version.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/share/isaac_ros_visual_slam/package.xml

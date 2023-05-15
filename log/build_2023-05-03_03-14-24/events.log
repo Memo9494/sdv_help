@@ -1,0 +1,389 @@
+[0.000000] (-) TimerEvent: {}
+[0.000794] (-) JobUnselected: {'identifier': 'encoder'}
+[0.001678] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.002180] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.002299] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.002377] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.004718] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.004796] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam'}
+[0.004866] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam_interfaces'}
+[0.004953] (-) JobUnselected: {'identifier': 'multisense_lib'}
+[0.005044] (-) JobUnselected: {'identifier': 'multisense_msgs'}
+[0.005216] (-) JobUnselected: {'identifier': 'multisense_ros'}
+[0.005308] (-) JobUnselected: {'identifier': 'my_package'}
+[0.005627] (-) JobUnselected: {'identifier': 'panel'}
+[0.005782] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.005858] (-) JobUnselected: {'identifier': 'sdv_localization_msgs'}
+[0.005928] (-) JobUnselected: {'identifier': 'sdv_msg'}
+[0.006010] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.006164] (-) JobUnselected: {'identifier': 'vectornav'}
+[0.006268] (-) JobUnselected: {'identifier': 'vectornav_msgs'}
+[0.006424] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.008412] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.008498] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.008634] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.008832] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.008963] (-) JobUnselected: {'identifier': 'vision_msgs'}
+[0.009081] (-) JobUnselected: {'identifier': 'vision_msgs_rviz_plugins'}
+[0.009199] (-) JobUnselected: {'identifier': 'xacro'}
+[0.009326] (-) JobUnselected: {'identifier': 'xbox_controller'}
+[0.009408] (-) JobUnselected: {'identifier': 'yolov8_bringup'}
+[0.011332] (-) JobUnselected: {'identifier': 'yolov8_ros'}
+[0.011494] (sdv_localization) JobQueued: {'identifier': 'sdv_localization', 'dependencies': OrderedDict([('sdv_localization_msgs', '/workspaces/isaac_ros-dev/install/sdv_localization_msgs'), ('vectornav_msgs', '/workspaces/isaac_ros-dev/install/vectornav_msgs')])}
+[0.011604] (sdv_localization) JobStarted: {'identifier': 'sdv_localization'}
+[0.099070] (-) TimerEvent: {}
+[0.146332] (sdv_localization) JobProgress: {'identifier': 'sdv_localization', 'progress': 'cmake'}
+[0.149389] (sdv_localization) JobProgress: {'identifier': 'sdv_localization', 'progress': 'build'}
+[0.152320] (sdv_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/sdv_localization', '--', '-j8', '-l8'], 'cwd': '/workspaces/isaac_ros-dev/build/sdv_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install'), ('HOSTNAME', 'xavier-agx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs/lib:/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins/lib:/workspaces/isaac_ros-dev/install/vision_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/workspaces/isaac_ros-dev/install/vectornav/lib:/workspaces/isaac_ros-dev/install/sdv_localization/lib:/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/workspaces/isaac_ros-dev/install/sdv_msg/lib:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib:/workspaces/isaac_ros-dev/install/multisense_msgs/lib:/workspaces/isaac_ros-dev/install/multisense_lib/lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/workspaces/isaac_ros-dev/install/xacro/bin:/workspaces/isaac_ros-dev/install/multisense_lib/bin:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/bin:/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/sdv_localization'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/xbox_controller/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/vision_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/multisense_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install')]), 'shell': False}
+[0.199327] (-) TimerEvent: {}
+[0.300800] (-) TimerEvent: {}
+[0.324703] (sdv_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target isaac_awake\x1b[0m\n'}
+[0.385037] (sdv_localization) StdoutLine: {'line': b'[ 80%] Built target vncxx\n'}
+[0.401042] (-) TimerEvent: {}
+[0.405302] (sdv_localization) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/isaac_awake.dir/src/isaac_vslam_awake2.cpp.o\x1b[0m\n'}
+[0.491043] (sdv_localization) StdoutLine: {'line': b'[ 93%] Built target vn_gps_pose\n'}
+[0.491673] (sdv_localization) StdoutLine: {'line': b'[ 96%] Built target diagnostics\n'}
+[0.501140] (-) TimerEvent: {}
+[0.601748] (-) TimerEvent: {}
+[0.702513] (-) TimerEvent: {}
+[0.803307] (-) TimerEvent: {}
+[0.904101] (-) TimerEvent: {}
+[1.004892] (-) TimerEvent: {}
+[1.105689] (-) TimerEvent: {}
+[1.206417] (-) TimerEvent: {}
+[1.307197] (-) TimerEvent: {}
+[1.408049] (-) TimerEvent: {}
+[1.508860] (-) TimerEvent: {}
+[1.609737] (-) TimerEvent: {}
+[1.710537] (-) TimerEvent: {}
+[1.811297] (-) TimerEvent: {}
+[1.912617] (-) TimerEvent: {}
+[2.013422] (-) TimerEvent: {}
+[2.114283] (-) TimerEvent: {}
+[2.215082] (-) TimerEvent: {}
+[2.315821] (-) TimerEvent: {}
+[2.416611] (-) TimerEvent: {}
+[2.517386] (-) TimerEvent: {}
+[2.618211] (-) TimerEvent: {}
+[2.718993] (-) TimerEvent: {}
+[2.819841] (-) TimerEvent: {}
+[2.920567] (-) TimerEvent: {}
+[3.021343] (-) TimerEvent: {}
+[3.122166] (-) TimerEvent: {}
+[3.222909] (-) TimerEvent: {}
+[3.323675] (-) TimerEvent: {}
+[3.424516] (-) TimerEvent: {}
+[3.525249] (-) TimerEvent: {}
+[3.626055] (-) TimerEvent: {}
+[3.726796] (-) TimerEvent: {}
+[3.827533] (-) TimerEvent: {}
+[3.928235] (-) TimerEvent: {}
+[4.029016] (-) TimerEvent: {}
+[4.129763] (-) TimerEvent: {}
+[4.230549] (-) TimerEvent: {}
+[4.331364] (-) TimerEvent: {}
+[4.432137] (-) TimerEvent: {}
+[4.532914] (-) TimerEvent: {}
+[4.633759] (-) TimerEvent: {}
+[4.734512] (-) TimerEvent: {}
+[4.835274] (-) TimerEvent: {}
+[4.936042] (-) TimerEvent: {}
+[5.036756] (-) TimerEvent: {}
+[5.137533] (-) TimerEvent: {}
+[5.238350] (-) TimerEvent: {}
+[5.339099] (-) TimerEvent: {}
+[5.439884] (-) TimerEvent: {}
+[5.540656] (-) TimerEvent: {}
+[5.641451] (-) TimerEvent: {}
+[5.742303] (-) TimerEvent: {}
+[5.843070] (-) TimerEvent: {}
+[5.943845] (-) TimerEvent: {}
+[6.044623] (-) TimerEvent: {}
+[6.145381] (-) TimerEvent: {}
+[6.246232] (-) TimerEvent: {}
+[6.347010] (-) TimerEvent: {}
+[6.447801] (-) TimerEvent: {}
+[6.548554] (-) TimerEvent: {}
+[6.649239] (-) TimerEvent: {}
+[6.750056] (-) TimerEvent: {}
+[6.850836] (-) TimerEvent: {}
+[6.951589] (-) TimerEvent: {}
+[7.052361] (-) TimerEvent: {}
+[7.153132] (-) TimerEvent: {}
+[7.253982] (-) TimerEvent: {}
+[7.354759] (-) TimerEvent: {}
+[7.455537] (-) TimerEvent: {}
+[7.556291] (-) TimerEvent: {}
+[7.657059] (-) TimerEvent: {}
+[7.757895] (-) TimerEvent: {}
+[7.858675] (-) TimerEvent: {}
+[7.959456] (-) TimerEvent: {}
+[8.060245] (-) TimerEvent: {}
+[8.161006] (-) TimerEvent: {}
+[8.261766] (-) TimerEvent: {}
+[8.362462] (-) TimerEvent: {}
+[8.463222] (-) TimerEvent: {}
+[8.563964] (-) TimerEvent: {}
+[8.664746] (-) TimerEvent: {}
+[8.765519] (-) TimerEvent: {}
+[8.866361] (-) TimerEvent: {}
+[8.967142] (-) TimerEvent: {}
+[9.067928] (-) TimerEvent: {}
+[9.168702] (-) TimerEvent: {}
+[9.269470] (-) TimerEvent: {}
+[9.370292] (-) TimerEvent: {}
+[9.471081] (-) TimerEvent: {}
+[9.571856] (-) TimerEvent: {}
+[9.672642] (-) TimerEvent: {}
+[9.773408] (-) TimerEvent: {}
+[9.874231] (-) TimerEvent: {}
+[9.975001] (-) TimerEvent: {}
+[10.075760] (-) TimerEvent: {}
+[10.176500] (-) TimerEvent: {}
+[10.277281] (-) TimerEvent: {}
+[10.378082] (-) TimerEvent: {}
+[10.478814] (-) TimerEvent: {}
+[10.579602] (-) TimerEvent: {}
+[10.680376] (-) TimerEvent: {}
+[10.781172] (-) TimerEvent: {}
+[10.882030] (-) TimerEvent: {}
+[10.982803] (-) TimerEvent: {}
+[11.083588] (-) TimerEvent: {}
+[11.184349] (-) TimerEvent: {}
+[11.285127] (-) TimerEvent: {}
+[11.385931] (-) TimerEvent: {}
+[11.486709] (-) TimerEvent: {}
+[11.587488] (-) TimerEvent: {}
+[11.688246] (-) TimerEvent: {}
+[11.789011] (-) TimerEvent: {}
+[11.889816] (-) TimerEvent: {}
+[11.990607] (-) TimerEvent: {}
+[12.091344] (-) TimerEvent: {}
+[12.192108] (-) TimerEvent: {}
+[12.292896] (-) TimerEvent: {}
+[12.393726] (-) TimerEvent: {}
+[12.494455] (-) TimerEvent: {}
+[12.595237] (-) TimerEvent: {}
+[12.696026] (-) TimerEvent: {}
+[12.796814] (-) TimerEvent: {}
+[12.897584] (-) TimerEvent: {}
+[12.998403] (-) TimerEvent: {}
+[13.099143] (-) TimerEvent: {}
+[13.199987] (-) TimerEvent: {}
+[13.300753] (-) TimerEvent: {}
+[13.401537] (-) TimerEvent: {}
+[13.502364] (-) TimerEvent: {}
+[13.603123] (-) TimerEvent: {}
+[13.703866] (-) TimerEvent: {}
+[13.804614] (-) TimerEvent: {}
+[13.905466] (-) TimerEvent: {}
+[14.006334] (-) TimerEvent: {}
+[14.107145] (-) TimerEvent: {}
+[14.207984] (-) TimerEvent: {}
+[14.308804] (-) TimerEvent: {}
+[14.409693] (-) TimerEvent: {}
+[14.510437] (-) TimerEvent: {}
+[14.611185] (-) TimerEvent: {}
+[14.711980] (-) TimerEvent: {}
+[14.812782] (-) TimerEvent: {}
+[14.913488] (-) TimerEvent: {}
+[15.014321] (-) TimerEvent: {}
+[15.115117] (-) TimerEvent: {}
+[15.215959] (-) TimerEvent: {}
+[15.316775] (-) TimerEvent: {}
+[15.417674] (-) TimerEvent: {}
+[15.518644] (-) TimerEvent: {}
+[15.619425] (-) TimerEvent: {}
+[15.720204] (-) TimerEvent: {}
+[15.821006] (-) TimerEvent: {}
+[15.921788] (-) TimerEvent: {}
+[16.022544] (-) TimerEvent: {}
+[16.123318] (-) TimerEvent: {}
+[16.224093] (-) TimerEvent: {}
+[16.324862] (-) TimerEvent: {}
+[16.425667] (-) TimerEvent: {}
+[16.526419] (-) TimerEvent: {}
+[16.627181] (-) TimerEvent: {}
+[16.727921] (-) TimerEvent: {}
+[16.828703] (-) TimerEvent: {}
+[16.929464] (-) TimerEvent: {}
+[17.030301] (-) TimerEvent: {}
+[17.131048] (-) TimerEvent: {}
+[17.231831] (-) TimerEvent: {}
+[17.332613] (-) TimerEvent: {}
+[17.433391] (-) TimerEvent: {}
+[17.534201] (-) TimerEvent: {}
+[17.634985] (-) TimerEvent: {}
+[17.735746] (-) TimerEvent: {}
+[17.836493] (-) TimerEvent: {}
+[17.937245] (-) TimerEvent: {}
+[18.038056] (-) TimerEvent: {}
+[18.138850] (-) TimerEvent: {}
+[18.239580] (-) TimerEvent: {}
+[18.340336] (-) TimerEvent: {}
+[18.441133] (-) TimerEvent: {}
+[18.541949] (-) TimerEvent: {}
+[18.642857] (-) TimerEvent: {}
+[18.743598] (-) TimerEvent: {}
+[18.844370] (-) TimerEvent: {}
+[18.945111] (-) TimerEvent: {}
+[19.045945] (-) TimerEvent: {}
+[19.146666] (-) TimerEvent: {}
+[19.247439] (-) TimerEvent: {}
+[19.348198] (-) TimerEvent: {}
+[19.448971] (-) TimerEvent: {}
+[19.549782] (-) TimerEvent: {}
+[19.650562] (-) TimerEvent: {}
+[19.751319] (-) TimerEvent: {}
+[19.852119] (-) TimerEvent: {}
+[19.952847] (-) TimerEvent: {}
+[20.053702] (-) TimerEvent: {}
+[20.154443] (-) TimerEvent: {}
+[20.255190] (-) TimerEvent: {}
+[20.355929] (-) TimerEvent: {}
+[20.456672] (-) TimerEvent: {}
+[20.557451] (-) TimerEvent: {}
+[20.658478] (-) TimerEvent: {}
+[20.759348] (-) TimerEvent: {}
+[20.860102] (-) TimerEvent: {}
+[20.960876] (-) TimerEvent: {}
+[21.061699] (-) TimerEvent: {}
+[21.162449] (-) TimerEvent: {}
+[21.263193] (-) TimerEvent: {}
+[21.363952] (-) TimerEvent: {}
+[21.464702] (-) TimerEvent: {}
+[21.565499] (-) TimerEvent: {}
+[21.666350] (-) TimerEvent: {}
+[21.767173] (-) TimerEvent: {}
+[21.867955] (-) TimerEvent: {}
+[21.968742] (-) TimerEvent: {}
+[22.069526] (-) TimerEvent: {}
+[22.170376] (-) TimerEvent: {}
+[22.271153] (-) TimerEvent: {}
+[22.371907] (-) TimerEvent: {}
+[22.472655] (-) TimerEvent: {}
+[22.573426] (-) TimerEvent: {}
+[22.674289] (-) TimerEvent: {}
+[22.775107] (-) TimerEvent: {}
+[22.875972] (-) TimerEvent: {}
+[22.976717] (-) TimerEvent: {}
+[23.077577] (-) TimerEvent: {}
+[23.178417] (-) TimerEvent: {}
+[23.279207] (-) TimerEvent: {}
+[23.379966] (-) TimerEvent: {}
+[23.480692] (-) TimerEvent: {}
+[23.580234] (sdv_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable isaac_awake\x1b[0m\n'}
+[23.580951] (-) TimerEvent: {}
+[23.681549] (-) TimerEvent: {}
+[23.782450] (-) TimerEvent: {}
+[23.883221] (-) TimerEvent: {}
+[23.983993] (-) TimerEvent: {}
+[24.085151] (-) TimerEvent: {}
+[24.185935] (-) TimerEvent: {}
+[24.287200] (-) TimerEvent: {}
+[24.388604] (-) TimerEvent: {}
+[24.489404] (-) TimerEvent: {}
+[24.590248] (-) TimerEvent: {}
+[24.654839] (sdv_localization) StdoutLine: {'line': b'[100%] Built target isaac_awake\n'}
+[24.678944] (sdv_localization) CommandEnded: {'returncode': 0}
+[24.691773] (-) TimerEvent: {}
+[24.793125] (-) TimerEvent: {}
+[24.894237] (-) TimerEvent: {}
+[24.912046] (sdv_localization) JobProgress: {'identifier': 'sdv_localization', 'progress': 'install'}
+[24.938800] (sdv_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/isaac_ros-dev/build/sdv_localization'], 'cwd': '/workspaces/isaac_ros-dev/build/sdv_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install'), ('HOSTNAME', 'xavier-agx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs/lib:/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins/lib:/workspaces/isaac_ros-dev/install/vision_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/workspaces/isaac_ros-dev/install/vectornav/lib:/workspaces/isaac_ros-dev/install/sdv_localization/lib:/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/workspaces/isaac_ros-dev/install/sdv_msg/lib:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan/lib:/workspaces/isaac_ros-dev/install/multisense_msgs/lib:/workspaces/isaac_ros-dev/install/multisense_lib/lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/workspaces/isaac_ros-dev/install/xacro/bin:/workspaces/isaac_ros-dev/install/multisense_lib/bin:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam/bin:/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/sdv_localization'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/sdv_localization_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/xbox_controller/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/vision_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/multisense_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install')]), 'shell': False}
+[24.960660] (sdv_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.961626] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/lib/sdv_localization/vn_gps_pose\n'}
+[24.963517] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/lib/sdv_localization/diagnostics\n'}
+[24.965179] (sdv_localization) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/sdv_localization/lib/sdv_localization/isaac_awake\n'}
+[24.990582] (sdv_localization) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/sdv_localization/lib/sdv_localization/isaac_awake" to ""\n'}
+[24.991605] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch\n'}
+[24.992652] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/.test_car_tf.launch.py.swp\n'}
+[24.993037] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/rosbag_mapping.launch.py\n'}
+[24.993321] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/multisense_launch.py\n'}
+[24.993653] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/test_car_tf.launch.py\n'}
+[24.993962] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/odom.launch.py\n'}
+[24.994728] (-) TimerEvent: {}
+[24.996281] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/velodyne.launch.py\n'}
+[24.996919] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/sdv_tf.launch.py\n'}
+[24.997379] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/test_filtered_laserscan.launch.py\n'}
+[24.998090] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/real_time_sdv_mapping.launch.py\n'}
+[24.998533] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/filtered_laserscan.launch.py\n'}
+[24.998791] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/__pycache__\n'}
+[24.999097] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/__pycache__/test_car_tf.launch.cpython-38.pyc\n'}
+[24.999604] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/__pycache__/odom.launch.cpython-38.pyc\n'}
+[25.000045] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/__pycache__/rosbag_tf.launch.cpython-38.pyc\n'}
+[25.000292] (sdv_localization) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/__pycache__/sdv_tf.launch.cpython-38.pyc\n'}
+[25.000533] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/sdvenu_tf.launch.py\n'}
+[25.000773] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/map_broadcaster.launch.py\n'}
+[25.001056] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/rosbag_tf.launch.py\n'}
+[25.001279] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//launch/isaac_ros_visual_slam.launch.py\n'}
+[25.001736] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config\n'}
+[25.002283] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/tf_base_link_to_velodyne.yaml\n'}
+[25.003156] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/VnNedPoseNode.yaml\n'}
+[25.004143] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/mapper_params_offline.yaml\n'}
+[25.005104] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/VLP32C-velodyne_driver_node-params.yaml\n'}
+[25.005994] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/tf_odom_to_base_link.yaml\n'}
+[25.006277] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/mapper_params_online_async.yaml\n'}
+[25.006661] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/default-velodyne_laserscan_node-params.yaml\n'}
+[25.006943] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/32db.yaml\n'}
+[25.007191] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization//config/VLP32C-velodyne_transform_node-params.yaml\n'}
+[25.007415] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/ament_index/resource_index/package_run_dependencies/sdv_localization\n'}
+[25.007659] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/ament_index/resource_index/parent_prefix_path/sdv_localization\n'}
+[25.007950] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/environment/ament_prefix_path.sh\n'}
+[25.008192] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/environment/ament_prefix_path.dsv\n'}
+[25.008744] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/environment/path.sh\n'}
+[25.009487] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/environment/path.dsv\n'}
+[25.010576] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/local_setup.bash\n'}
+[25.012360] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/local_setup.sh\n'}
+[25.019433] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/local_setup.zsh\n'}
+[25.019862] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/local_setup.dsv\n'}
+[25.020581] (sdv_localization) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/package.dsv\n'}
+[25.021131] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/ament_index/resource_index/packages/sdv_localization\n'}
+[25.025409] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.026264] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/cmake/sdv_localizationConfig.cmake\n'}
+[25.031847] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/cmake/sdv_localizationConfig-version.cmake\n'}
+[25.032601] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/share/sdv_localization/package.xml\n'}
+[25.033013] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/lib/libvncxx.so\n'}
+[25.033417] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn\n'}
+[25.034195] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/memoryport.h\n'}
+[25.034724] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/mock.h\n'}
+[25.037988] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/exceptions.h\n'}
+[25.038586] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/rtcmlistener.h\n'}
+[25.038945] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/thread.h\n'}
+[25.041532] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/boostpython.h\n'}
+[25.042608] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/event.h\n'}
+[25.043404] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/ezasyncdata.h\n'}
+[25.043942] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/conversions.h\n'}
+[25.044220] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/error_detection.h\n'}
+[25.044685] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/export.h\n'}
+[25.045155] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/nocopy.h\n'}
+[25.045811] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/packetfinder.h\n'}
+[25.046272] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/compiler.h\n'}
+[25.046840] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/dllvalidator.h\n'}
+[25.047322] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/searcher.h\n'}
+[25.047851] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/criticalsection.h\n'}
+[25.048386] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/util.h\n'}
+[25.049502] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/vntime.h\n'}
+[25.052877] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/types.h\n'}
+[25.055304] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/matrix.h\n'}
+[25.056396] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/int.h\n'}
+[25.056894] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/rtcmmessage.h\n'}
+[25.057389] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/packet.h\n'}
+[25.057995] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/utilities.h\n'}
+[25.058564] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/attitude.h\n'}
+[25.059001] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/sensors.h\n'}
+[25.059565] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/consts.h\n'}
+[25.060086] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/vector.h\n'}
+[25.060522] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/position.h\n'}
+[25.061097] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/registers.h\n'}
+[25.061444] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/compositedata.h\n'}
+[25.064010] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/signal.h\n'}
+[25.064581] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/port.h\n'}
+[25.065176] (sdv_localization) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_localization/include/vn/serialport.h\n'}
+[25.065653] (sdv_localization) CommandEnded: {'returncode': 0}
+[25.095683] (-) TimerEvent: {}
+[25.197550] (-) TimerEvent: {}
+[25.299464] (-) TimerEvent: {}
+[25.405713] (-) TimerEvent: {}
+[25.430701] (sdv_localization) JobEnded: {'identifier': 'sdv_localization', 'rc': 0}
+[25.433835] (-) EventReactorShutdown: {}

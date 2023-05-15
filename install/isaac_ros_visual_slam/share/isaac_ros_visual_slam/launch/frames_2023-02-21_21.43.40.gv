@@ -1,0 +1,16 @@
+digraph G {
+"multisense/head" -> "multisense/accel"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/head" -> "multisense/gyro"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/head" -> "multisense/left_camera_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/head" -> "multisense/mag"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/head" -> "multisense/top_left_rear_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/left_camera_optical_frame" -> "multisense/left_camera_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/left_camera_optical_frame" -> "multisense/right_camera_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"multisense/right_camera_optical_frame" -> "multisense/right_camera_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 2.144\nBuffer length: 2.798\nMost recent transform: 1673052436.707341\nOldest transform: 1673052433.909154\n"];
+"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 2.144\nBuffer length: 2.798\nMost recent transform: 1673052436.907294\nOldest transform: 1673052434.109078\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1677015820.0688567"[ shape=plaintext ] ;
+}->"map";
+}

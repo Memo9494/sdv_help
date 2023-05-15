@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/encoder/encoder.egg-info
+writing ../../build/encoder/encoder.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/encoder/build
+creating /workspaces/isaac_ros-dev/build/encoder/build/lib
+creating /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+copying encoder/__init__.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+copying encoder/encoder_rm.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+copying encoder/encoder_node.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/__init__.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/encoder_rm.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/encoder_node.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/encoder_rm.py to encoder_rm.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/encoder_node.py to encoder_node.cpython-38.pyc
+running install_data
+creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index
+creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index/packages
+copying resource/encoder -> /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/isaac_ros-dev/install/encoder/share/encoder
+running install_egg_info
+Copying ../../build/encoder/encoder.egg-info to /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder-0.0.0-py3.8.egg-info
+running install_scripts
+Installing encoder_rm script to /workspaces/isaac_ros-dev/install/encoder/lib/encoder
+writing list of installed files to '/workspaces/isaac_ros-dev/build/encoder/install.log'

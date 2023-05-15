@@ -1,0 +1,2 @@
+[console_scripts]
+xbox_node = xbox_controller.xbox_node:main

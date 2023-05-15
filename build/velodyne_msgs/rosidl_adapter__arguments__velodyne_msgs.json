@@ -1,0 +1,7 @@
+{
+  "package_name": "velodyne_msgs",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/sdv_localization/velodyne/velodyne_msgs:msg/VelodynePacket.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/velodyne/velodyne_msgs:msg/VelodyneScan.msg"
+  ]
+}

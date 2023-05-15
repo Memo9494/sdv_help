@@ -1,0 +1,10 @@
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceInfo.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamConfig.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawImuData.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarData.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamCal.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamData.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarCal.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/Histogram.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceStatus.idl
+/workspaces/isaac_ros-dev/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/StampedPps.idl

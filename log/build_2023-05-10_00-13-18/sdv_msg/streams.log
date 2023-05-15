@@ -1,0 +1,161 @@
+[0.664s] Invoking command in '/workspaces/isaac_ros-dev/build/sdv_msg': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/sdv_msg -- -j8 -l8
+[2.739s] [  5%] Built target sdv_msg__cpp
+[2.740s] [ 12%] Built target sdv_msg__rosidl_generator_c
+[2.740s] [ 12%] Built target ament_cmake_python_copy_sdv_msg
+[2.740s] [ 23%] Built target sdv_msg__rosidl_typesupport_cpp
+[2.741s] [ 33%] Built target sdv_msg__rosidl_typesupport_fastrtps_c
+[2.741s] [ 43%] Built target sdv_msg__rosidl_typesupport_introspection_c
+[2.741s] [ 53%] Built target sdv_msg__rosidl_typesupport_introspection_cpp
+[2.741s] [ 64%] Built target sdv_msg__rosidl_typesupport_c
+[2.742s] [ 74%] Built target sdv_msg__rosidl_typesupport_fastrtps_cpp
+[2.742s] [ 74%] Built target sdv_msg
+[2.742s] [ 76%] Built target sdv_msg__py
+[2.742s] [ 84%] Built target sdv_msg__rosidl_generator_py
+[2.743s] [ 89%] Built target sdv_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.743s] [ 94%] Built target sdv_msg__rosidl_typesupport_introspection_c__pyext
+[2.744s] [100%] Built target sdv_msg__rosidl_typesupport_c__pyext
+[2.856s] running egg_info
+[2.968s] writing sdv_msg.egg-info/PKG-INFO
+[2.970s] writing dependency_links to sdv_msg.egg-info/dependency_links.txt
+[2.978s] writing top-level names to sdv_msg.egg-info/top_level.txt
+[3.520s] reading manifest file 'sdv_msg.egg-info/SOURCES.txt'
+[3.523s] writing manifest file 'sdv_msg.egg-info/SOURCES.txt'
+[3.826s] [100%] Built target ament_cmake_python_build_sdv_msg_egg
+[3.921s] Invoked command in '/workspaces/isaac_ros-dev/build/sdv_msg' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/sdv_msg -- -j8 -l8
+[5.159s] Invoking command in '/workspaces/isaac_ros-dev/build/sdv_msg': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/sdv_msg
+[5.177s] -- Install configuration: ""
+[5.178s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/ament_index/resource_index/rosidl_interfaces/sdv_msg
+[5.179s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.180s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.180s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/xbox_msg.h
+[5.181s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/rosidl_generator_c__visibility_control.h
+[5.181s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/panel_msg.h
+[5.182s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.183s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__functions.h
+[5.183s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__type_support.h
+[5.185s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__functions.c
+[5.185s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__functions.c
+[5.195s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__struct.h
+[5.196s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__functions.h
+[5.196s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__struct.h
+[5.197s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__type_support.h
+[5.198s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/library_path.sh
+[5.198s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/library_path.dsv
+[5.198s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_generator_c.so
+[5.199s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.199s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.199s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.200s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.200s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__rosidl_typesupport_fastrtps_c.h
+[5.200s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__rosidl_typesupport_fastrtps_c.h
+[5.201s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_fastrtps_c.so
+[5.201s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.201s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.202s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/xbox_msg.hpp
+[5.203s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/panel_msg.hpp
+[5.203s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.203s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__builder.hpp
+[5.204s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__struct.hpp
+[5.204s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__struct.hpp
+[5.204s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__traits.hpp
+[5.205s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__builder.hpp
+[5.206s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__traits.hpp
+[5.206s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.206s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.206s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/dds_fastrtps
+[5.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_fastrtps_cpp.so
+[5.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__rosidl_typesupport_introspection_c.h
+[5.210s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__rosidl_typesupport_introspection_c.h
+[5.210s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__type_support.c
+[5.210s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__type_support.c
+[5.211s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.211s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_introspection_c.so
+[5.214s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_c.so
+[5.215s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg
+[5.216s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg
+[5.216s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail
+[5.217s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.217s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.218s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/panel_msg__type_support.cpp
+[5.218s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/include/sdv_msg/sdv_msg/msg/detail/xbox_msg__type_support.cpp
+[5.220s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_introspection_cpp.so
+[5.222s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_typesupport_cpp.so
+[5.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/pythonpath.sh
+[5.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/pythonpath.dsv
+[5.224s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg-0.0.0-py3.8.egg-info
+[5.226s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg-0.0.0-py3.8.egg-info/top_level.txt
+[5.231s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg-0.0.0-py3.8.egg-info/dependency_links.txt
+[5.232s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg-0.0.0-py3.8.egg-info/SOURCES.txt
+[5.232s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg-0.0.0-py3.8.egg-info/PKG-INFO
+[5.234s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg
+[5.234s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.235s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.235s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/__init__.py
+[5.236s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg
+[5.236s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg/__init__.py
+[5.237s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg/_xbox_msg_s.c
+[5.237s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg/_panel_msg.py
+[5.238s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg/_xbox_msg.py
+[5.238s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg/_panel_msg_s.c
+[5.239s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/libsdv_msg__rosidl_generator_py.so
+[5.239s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/_sdv_msg_s.ep.rosidl_typesupport_introspection_c.c
+[5.240s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/_sdv_msg_s.ep.rosidl_typesupport_c.c
+[5.240s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/_sdv_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.240s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.429s] Listing '/workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg'...
+[5.430s] Listing '/workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/msg'...
+[5.447s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.449s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.453s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/python3.8/site-packages/sdv_msg/sdv_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.455s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/lib/libsdv_msg__rosidl_generator_py.so
+[5.456s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/msg/PanelMsg.idl
+[5.457s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/msg/XboxMsg.idl
+[5.457s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/msg/PanelMsg.msg
+[5.457s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/msg/XboxMsg.msg
+[5.458s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/ament_index/resource_index/package_run_dependencies/sdv_msg
+[5.458s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/ament_index/resource_index/parent_prefix_path/sdv_msg
+[5.458s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/ament_prefix_path.sh
+[5.459s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/ament_prefix_path.dsv
+[5.459s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/path.sh
+[5.459s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/environment/path.dsv
+[5.460s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/local_setup.bash
+[5.460s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/local_setup.sh
+[5.461s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/local_setup.zsh
+[5.461s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/local_setup.dsv
+[5.461s] -- Installing: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/package.dsv
+[5.462s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/ament_index/resource_index/packages/sdv_msg
+[5.462s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_generator_cExport.cmake
+[5.462s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_generator_cExport-noconfig.cmake
+[5.463s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[5.464s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.464s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_generator_cppExport.cmake
+[5.472s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.473s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.473s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_introspection_cExport.cmake
+[5.474s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.480s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_cExport.cmake
+[5.481s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_cExport-noconfig.cmake
+[5.481s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_introspection_cppExport.cmake
+[5.482s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.482s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_cppExport.cmake
+[5.482s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[5.482s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_generator_pyExport.cmake
+[5.483s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/export_sdv_msg__rosidl_generator_pyExport-noconfig.cmake
+[5.483s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/rosidl_cmake-extras.cmake
+[5.483s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.483s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.484s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.486s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/ament_cmake_export_targets-extras.cmake
+[5.487s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.488s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.489s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msgConfig.cmake
+[5.490s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/cmake/sdv_msgConfig-version.cmake
+[5.491s] -- Up-to-date: /workspaces/isaac_ros-dev/install/sdv_msg/share/sdv_msg/package.xml
+[5.646s] Invoked command in '/workspaces/isaac_ros-dev/build/sdv_msg' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/sdv_msg

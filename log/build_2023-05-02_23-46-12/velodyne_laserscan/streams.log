@@ -1,0 +1,83 @@
+[0.156s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/sdv_localization/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_laserscan
+[3.530s] -- The C compiler identification is GNU 9.4.0
+[3.531s] -- The CXX compiler identification is GNU 9.4.0
+[3.531s] -- Detecting C compiler ABI info
+[3.531s] -- Detecting C compiler ABI info - done
+[3.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.532s] -- Detecting C compile features
+[3.532s] -- Detecting C compile features - done
+[3.532s] -- Detecting CXX compiler ABI info
+[3.533s] -- Detecting CXX compiler ABI info - done
+[3.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.576s] -- Detecting CXX compile features
+[3.591s] -- Detecting CXX compile features - done
+[3.614s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[17.216s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[18.074s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/install/share/rclcpp/cmake)
+[18.459s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[18.500s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[18.565s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[18.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.310s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[19.328s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[20.888s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[21.372s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[22.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.815s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+[24.610s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[25.649s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[26.743s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.763s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.764s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/sdv_localization/velodyne/velodyne_laserscan/include
+[26.764s] -- Configured cppcheck exclude dirs and/or files: 
+[26.788s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.788s] -- Configured cpplint exclude dirs and/or files: 
+[26.802s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.810s] -- Added test 'lint_cmake' to check CMake code style
+[26.816s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[26.830s] -- Added test 'uncrustify' to check C / C++ code style
+[26.830s] -- Configured uncrustify additional arguments: 
+[26.837s] -- Added test 'xmllint' to check XML markup files
+[26.852s] -- Configuring done
+[26.953s] -- Generating done
+[26.961s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/velodyne_laserscan
+[27.062s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/sdv_localization/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_laserscan
+[27.087s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_laserscan -- -j8 -l8
+[31.618s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[67.034s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[68.713s] [ 50%] Built target velodyne_laserscan
+[68.782s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[81.008s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[81.794s] [100%] Built target velodyne_laserscan_node
+[81.844s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_laserscan -- -j8 -l8
+[82.119s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_laserscan
+[89.733s] -- Install configuration: ""
+[89.733s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[89.734s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[89.734s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[89.734s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[89.735s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/include/velodyne_laserscan
+[89.735s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[89.735s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/config
+[89.736s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[89.736s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[89.736s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[89.737s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[89.737s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[89.737s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[89.737s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[89.738s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[89.738s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[89.738s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[89.739s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[89.739s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[89.740s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[89.740s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[89.740s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[89.741s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[89.741s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[89.741s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[89.742s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[89.742s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[89.879s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_laserscan

@@ -1,0 +1,25 @@
+[5.078s] Invoking command in '/workspaces/isaac_ros-dev/src/yolov8_ros/yolov8_ros': PYTHONPATH=/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /workspaces/isaac_ros-dev/build/yolov8_ros/build install --prefix /workspaces/isaac_ros-dev/install/yolov8_ros --record /workspaces/isaac_ros-dev/build/yolov8_ros/install.log --single-version-externally-managed
+[6.721s] running egg_info
+[6.772s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[6.772s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[6.773s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[6.774s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[6.774s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[6.878s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[6.882s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[6.882s] running build
+[6.882s] running build_py
+[6.883s] copying yolov8_ros/yolov8_node.py -> /workspaces/isaac_ros-dev/build/yolov8_ros/build/lib/yolov8_ros
+[6.884s] running install
+[6.900s] running install_lib
+[6.951s] copying /workspaces/isaac_ros-dev/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[6.955s] byte-compiling /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-38.pyc
+[6.957s] running install_data
+[6.957s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (yolov8_node.py, line 187)
+[7.005s] running install_egg_info
+[7.057s] removing '/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[7.058s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info
+[7.062s] running install_scripts
+[7.296s] Installing yolov8_node script to /workspaces/isaac_ros-dev/install/yolov8_ros/lib/yolov8_ros
+[7.297s] writing list of installed files to '/workspaces/isaac_ros-dev/build/yolov8_ros/install.log'
+[8.049s] Invoked command in '/workspaces/isaac_ros-dev/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /workspaces/isaac_ros-dev/build/yolov8_ros/build install --prefix /workspaces/isaac_ros-dev/install/yolov8_ros --record /workspaces/isaac_ros-dev/build/yolov8_ros/install.log --single-version-externally-managed

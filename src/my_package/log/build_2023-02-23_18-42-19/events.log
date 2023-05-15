@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.012068] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.015537] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098533] (-) TimerEvent: {}
+[0.211239] (-) TimerEvent: {}
+[0.269447] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.274144] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/isaac_ros-dev/src/my_package', '-DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/src/my_package/install/my_package'], 'cwd': '/workspaces/isaac_ros-dev/src/my_package/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install'), ('HOSTNAME', 'xavier-agx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces/isaac_ros-dev/src'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/src/my_package/build/my_package'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.318838] (-) TimerEvent: {}
+[0.439878] (-) TimerEvent: {}
+[0.546164] (-) TimerEvent: {}
+[0.651613] (-) TimerEvent: {}
+[0.756615] (-) TimerEvent: {}
+[0.861186] (-) TimerEvent: {}
+[0.965697] (-) TimerEvent: {}
+[1.071045] (-) TimerEvent: {}
+[1.081185] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.171960] (-) TimerEvent: {}
+[1.276964] (-) TimerEvent: {}
+[1.381893] (-) TimerEvent: {}
+[1.486700] (-) TimerEvent: {}
+[1.591172] (-) TimerEvent: {}
+[1.695763] (-) TimerEvent: {}
+[1.800895] (-) TimerEvent: {}
+[1.826019] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.901826] (-) TimerEvent: {}
+[1.918022] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.002596] (-) TimerEvent: {}
+[2.107329] (-) TimerEvent: {}
+[2.212355] (-) TimerEvent: {}
+[2.317394] (-) TimerEvent: {}
+[2.421998] (-) TimerEvent: {}
+[2.526622] (-) TimerEvent: {}
+[2.633883] (-) TimerEvent: {}
+[2.673911] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.734816] (-) TimerEvent: {}
+[2.766549] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.771886] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.775039] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.813859] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.835517] (-) TimerEvent: {}
+[2.941631] (-) TimerEvent: {}
+[3.048325] (-) TimerEvent: {}
+[3.153936] (-) TimerEvent: {}
+[3.258804] (-) TimerEvent: {}
+[3.363077] (-) TimerEvent: {}
+[3.468227] (-) TimerEvent: {}
+[3.573265] (-) TimerEvent: {}
+[3.628495] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.673623] (-) TimerEvent: {}
+[3.723016] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.727173] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.732405] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.766340] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[3.773787] (-) TimerEvent: {}
+[3.877098] (-) TimerEvent: {}
+[3.981224] (-) TimerEvent: {}
+[4.085030] (-) TimerEvent: {}
+[4.188540] (-) TimerEvent: {}
+[4.292160] (-) TimerEvent: {}
+[4.395721] (-) TimerEvent: {}
+[4.499180] (-) TimerEvent: {}
+[4.602749] (-) TimerEvent: {}
+[4.706067] (-) TimerEvent: {}
+[4.809530] (-) TimerEvent: {}
+[4.913884] (-) TimerEvent: {}
+[5.017365] (-) TimerEvent: {}
+[5.120942] (-) TimerEvent: {}
+[5.225774] (-) TimerEvent: {}
+[5.329991] (-) TimerEvent: {}
+[5.433718] (-) TimerEvent: {}
+[5.537468] (-) TimerEvent: {}
+[5.641052] (-) TimerEvent: {}
+[5.744614] (-) TimerEvent: {}
+[5.848165] (-) TimerEvent: {}
+[5.951465] (-) TimerEvent: {}
+[6.055203] (-) TimerEvent: {}
+[6.159031] (-) TimerEvent: {}
+[6.262688] (-) TimerEvent: {}
+[6.366713] (-) TimerEvent: {}
+[6.471371] (-) TimerEvent: {}
+[6.575510] (-) TimerEvent: {}
+[6.679632] (-) TimerEvent: {}
+[6.783566] (-) TimerEvent: {}
+[6.887113] (-) TimerEvent: {}
+[6.990773] (-) TimerEvent: {}
+[7.095117] (-) TimerEvent: {}
+[7.199258] (-) TimerEvent: {}
+[7.302715] (-) TimerEvent: {}
+[7.405937] (-) TimerEvent: {}
+[7.509991] (-) TimerEvent: {}
+[7.615298] (-) TimerEvent: {}
+[7.719142] (-) TimerEvent: {}
+[7.822341] (-) TimerEvent: {}
+[7.925892] (-) TimerEvent: {}
+[8.029328] (-) TimerEvent: {}
+[8.132856] (-) TimerEvent: {}
+[8.236026] (-) TimerEvent: {}
+[8.339476] (-) TimerEvent: {}
+[8.443330] (-) TimerEvent: {}
+[8.547006] (-) TimerEvent: {}
+[8.650949] (-) TimerEvent: {}
+[8.754431] (-) TimerEvent: {}
+[8.857758] (-) TimerEvent: {}
+[8.960619] (-) TimerEvent: {}
+[9.064121] (-) TimerEvent: {}
+[9.166981] (-) TimerEvent: {}
+[9.269636] (-) TimerEvent: {}
+[9.372421] (-) TimerEvent: {}
+[9.475740] (-) TimerEvent: {}
+[9.579503] (-) TimerEvent: {}
+[9.683389] (-) TimerEvent: {}
+[9.787359] (-) TimerEvent: {}
+[9.891595] (-) TimerEvent: {}
+[9.995329] (-) TimerEvent: {}
+[10.098459] (-) TimerEvent: {}
+[10.201942] (-) TimerEvent: {}
+[10.305038] (-) TimerEvent: {}
+[10.407978] (-) TimerEvent: {}
+[10.511253] (-) TimerEvent: {}
+[10.614203] (-) TimerEvent: {}
+[10.717836] (-) TimerEvent: {}
+[10.822198] (-) TimerEvent: {}
+[10.925633] (-) TimerEvent: {}
+[11.029132] (-) TimerEvent: {}
+[11.132518] (-) TimerEvent: {}
+[11.236010] (-) TimerEvent: {}
+[11.338994] (-) TimerEvent: {}
+[11.442295] (-) TimerEvent: {}
+[11.545393] (-) TimerEvent: {}
+[11.648240] (-) TimerEvent: {}
+[11.751113] (-) TimerEvent: {}
+[11.853794] (-) TimerEvent: {}
+[11.956415] (-) TimerEvent: {}
+[12.058912] (-) TimerEvent: {}
+[12.161676] (-) TimerEvent: {}
+[12.264239] (-) TimerEvent: {}
+[12.367276] (-) TimerEvent: {}
+[12.470868] (-) TimerEvent: {}
+[12.575740] (-) TimerEvent: {}
+[12.680262] (-) TimerEvent: {}
+[12.785324] (-) TimerEvent: {}
+[12.889114] (-) TimerEvent: {}
+[12.992508] (-) TimerEvent: {}
+[13.095700] (-) TimerEvent: {}
+[13.199155] (-) TimerEvent: {}
+[13.303312] (-) TimerEvent: {}
+[13.352502] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[13.404057] (-) TimerEvent: {}
+[13.508892] (-) TimerEvent: {}
+[13.612367] (-) TimerEvent: {}
+[13.715664] (-) TimerEvent: {}
+[13.818894] (-) TimerEvent: {}
+[13.921609] (-) TimerEvent: {}
+[14.024429] (-) TimerEvent: {}
+[14.128457] (-) TimerEvent: {}
+[14.234085] (-) TimerEvent: {}
+[14.338964] (-) TimerEvent: {}
+[14.355031] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[14.439312] (-) TimerEvent: {}
+[14.542900] (-) TimerEvent: {}
+[14.646010] (-) TimerEvent: {}
+[14.748879] (-) TimerEvent: {}
+[14.851821] (-) TimerEvent: {}
+[14.955228] (-) TimerEvent: {}
+[15.058759] (-) TimerEvent: {}
+[15.163262] (-) TimerEvent: {}
+[15.267924] (-) TimerEvent: {}
+[15.318676] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.323491] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/isaac_ros-dev/src/my_package/include>\n'}
+[15.325842] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.350829] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.368316] (-) TimerEvent: {}
+[15.416016] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.419120] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.429940] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.447707] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.468568] (-) TimerEvent: {}
+[15.512163] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[15.525079] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/isaac_ros-dev/src/my_package/build/my_package\n'}
+[15.570520] (-) TimerEvent: {}
+[15.585697] (my_package) CommandEnded: {'returncode': 0}
+[15.596927] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[15.606980] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/src/my_package/build/my_package', '--', '-j8', '-l8'], 'cwd': '/workspaces/isaac_ros-dev/src/my_package/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install'), ('HOSTNAME', 'xavier-agx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces/isaac_ros-dev/src'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/src/my_package/build/my_package'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[15.671596] (-) TimerEvent: {}
+[15.777338] (-) TimerEvent: {}
+[15.881920] (-) TimerEvent: {}
+[15.958405] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[15.982336] (-) TimerEvent: {}
+[16.086495] (-) TimerEvent: {}
+[16.191608] (-) TimerEvent: {}
+[16.297064] (-) TimerEvent: {}
+[16.343990] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[16.397055] (-) TimerEvent: {}
+[16.500982] (-) TimerEvent: {}
+[16.609048] (-) TimerEvent: {}
+[16.714146] (-) TimerEvent: {}
+[16.729126] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[16.794794] (my_package) CommandEnded: {'returncode': 0}
+[16.818164] (-) TimerEvent: {}
+[16.926116] (-) TimerEvent: {}
+[17.030432] (-) TimerEvent: {}
+[17.103470] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[17.132473] (-) TimerEvent: {}
+[17.173801] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/isaac_ros-dev/src/my_package/build/my_package'], 'cwd': '/workspaces/isaac_ros-dev/src/my_package/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install'), ('HOSTNAME', 'xavier-agx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces/isaac_ros-dev/src'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/src/my_package/build/my_package'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[17.232937] (-) TimerEvent: {}
+[17.248206] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.254861] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/lib/my_package/my_node\n'}
+[17.257804] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[17.260881] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[17.263808] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[17.266657] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[17.269199] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/environment/path.sh\n'}
+[17.271447] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/environment/path.dsv\n'}
+[17.275176] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/local_setup.bash\n'}
+[17.279777] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/local_setup.sh\n'}
+[17.281979] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/local_setup.zsh\n'}
+[17.284051] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/local_setup.dsv\n'}
+[17.286401] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/package.dsv\n'}
+[17.287519] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[17.290815] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[17.291868] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[17.293697] (my_package) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/src/my_package/install/my_package/share/my_package/package.xml\n'}
+[17.315338] (my_package) CommandEnded: {'returncode': 0}
+[17.340274] (-) TimerEvent: {}
+[17.450379] (-) TimerEvent: {}
+[17.564437] (-) TimerEvent: {}
+[17.671731] (-) TimerEvent: {}
+[17.784361] (-) TimerEvent: {}
+[17.897541] (-) TimerEvent: {}
+[18.018221] (-) TimerEvent: {}
+[18.095615] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[18.110198] (-) EventReactorShutdown: {}

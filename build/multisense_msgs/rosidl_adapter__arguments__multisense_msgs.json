@@ -1,0 +1,15 @@
+{
+  "package_name": "multisense_msgs",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/DeviceInfo.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawCamConfig.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawImuData.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawLidarData.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawCamCal.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawCamData.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/RawLidarCal.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/Histogram.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/DeviceStatus.msg",
+    "/workspaces/isaac_ros-dev/src/multisense_ros2/multisense_msgs:msg/StampedPps.msg"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "package_name": "sdv_localization_msgs",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/sdv_localization/sdv_localization_msgs:msg/SensorDiag.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/sdv_localization_msgs:msg/SensorStatArray.msg"
+  ]
+}

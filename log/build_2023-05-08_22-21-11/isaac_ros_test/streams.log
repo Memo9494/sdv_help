@@ -1,0 +1,19 @@
+[6.617s] Invoking command in '/workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_test': PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_test build --build-base /workspaces/isaac_ros-dev/build/isaac_ros_test/build install --prefix /workspaces/isaac_ros-dev/install/isaac_ros_test --record /workspaces/isaac_ros-dev/build/isaac_ros_test/install.log --single-version-externally-managed
+[8.633s] running egg_info
+[8.716s] writing ../../../build/isaac_ros_test/isaac_ros_test.egg-info/PKG-INFO
+[8.718s] writing dependency_links to ../../../build/isaac_ros_test/isaac_ros_test.egg-info/dependency_links.txt
+[8.718s] writing requirements to ../../../build/isaac_ros_test/isaac_ros_test.egg-info/requires.txt
+[8.720s] writing top-level names to ../../../build/isaac_ros_test/isaac_ros_test.egg-info/top_level.txt
+[8.918s] reading manifest file '../../../build/isaac_ros_test/isaac_ros_test.egg-info/SOURCES.txt'
+[8.919s] writing manifest file '../../../build/isaac_ros_test/isaac_ros_test.egg-info/SOURCES.txt'
+[8.919s] running build
+[8.919s] running build_py
+[8.920s] running install
+[8.947s] running install_lib
+[9.020s] running install_data
+[9.082s] running install_egg_info
+[9.167s] removing '/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages/isaac_ros_test-0.9.0-py3.8.egg-info' (and everything under it)
+[9.171s] Copying ../../../build/isaac_ros_test/isaac_ros_test.egg-info to /workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages/isaac_ros_test-0.9.0-py3.8.egg-info
+[9.179s] running install_scripts
+[9.519s] writing list of installed files to '/workspaces/isaac_ros-dev/build/isaac_ros_test/install.log'
+[9.749s] Invoked command in '/workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_test' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_test build --build-base /workspaces/isaac_ros-dev/build/isaac_ros_test/build install --prefix /workspaces/isaac_ros-dev/install/isaac_ros_test --record /workspaces/isaac_ros-dev/build/isaac_ros_test/install.log --single-version-externally-managed

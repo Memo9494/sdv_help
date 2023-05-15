@@ -1,0 +1,7 @@
+{
+  "package_name": "sdv_msg",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/sdv_msg:msg/PanelMsg.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_msg:msg/XboxMsg.msg"
+  ]
+}

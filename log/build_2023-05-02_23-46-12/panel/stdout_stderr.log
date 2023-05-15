@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/panel/panel.egg-info
+writing ../../build/panel/panel.egg-info/PKG-INFO
+writing dependency_links to ../../build/panel/panel.egg-info/dependency_links.txt
+writing entry points to ../../build/panel/panel.egg-info/entry_points.txt
+writing requirements to ../../build/panel/panel.egg-info/requires.txt
+writing top-level names to ../../build/panel/panel.egg-info/top_level.txt
+writing manifest file '../../build/panel/panel.egg-info/SOURCES.txt'
+reading manifest file '../../build/panel/panel.egg-info/SOURCES.txt'
+writing manifest file '../../build/panel/panel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/panel/build
+creating /workspaces/isaac_ros-dev/build/panel/build/lib
+creating /workspaces/isaac_ros-dev/build/panel/build/lib/panel
+copying panel/__init__.py -> /workspaces/isaac_ros-dev/build/panel/build/lib/panel
+copying panel/panel_module.py -> /workspaces/isaac_ros-dev/build/panel/build/lib/panel
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel
+copying /workspaces/isaac_ros-dev/build/panel/build/lib/panel/__init__.py -> /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel
+copying /workspaces/isaac_ros-dev/build/panel/build/lib/panel/panel_module.py -> /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel
+byte-compiling /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel/panel_module.py to panel_module.cpython-38.pyc
+running install_data
+creating /workspaces/isaac_ros-dev/install/panel/share/ament_index
+creating /workspaces/isaac_ros-dev/install/panel/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/install/panel/share/ament_index/resource_index/packages
+copying resource/panel -> /workspaces/isaac_ros-dev/install/panel/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/isaac_ros-dev/install/panel/share/panel
+running install_egg_info
+Copying ../../build/panel/panel.egg-info to /workspaces/isaac_ros-dev/install/panel/lib/python3.8/site-packages/panel-0.0.0-py3.8.egg-info
+running install_scripts
+Installing panel_module script to /workspaces/isaac_ros-dev/install/panel/lib/panel
+writing list of installed files to '/workspaces/isaac_ros-dev/build/panel/install.log'

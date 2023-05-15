@@ -1,0 +1,161 @@
+[0.697s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_msgs': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_msgs -- -j8 -l8
+[2.801s] [ 10%] Built target velodyne_msgs__rosidl_generator_c
+[2.801s] [ 12%] Built target velodyne_msgs__cpp
+[2.802s] [ 12%] Built target ament_cmake_python_copy_velodyne_msgs
+[2.802s] [ 23%] Built target velodyne_msgs__rosidl_typesupport_c
+[2.802s] [ 33%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[2.803s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[2.804s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[2.804s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[2.805s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[2.805s] [ 74%] Built target velodyne_msgs
+[2.805s] [ 76%] Built target velodyne_msgs__py
+[2.806s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[2.806s] [ 89%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.806s] [ 94%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[2.806s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[2.884s] running egg_info
+[2.976s] writing velodyne_msgs.egg-info/PKG-INFO
+[2.977s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[2.977s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[3.432s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[3.436s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[3.954s] [100%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[4.018s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_msgs -- -j8 -l8
+[5.887s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_msgs': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_msgs
+[5.921s] -- Install configuration: ""
+[5.922s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[5.923s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.924s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.924s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.926s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[5.926s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.926s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[5.927s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[5.927s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[5.928s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[5.928s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[5.929s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[5.930s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[5.930s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[5.931s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[5.932s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[5.933s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[5.936s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[5.939s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.941s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.942s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.943s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.945s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[5.946s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[5.947s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[5.948s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.949s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.950s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[5.950s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.951s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[5.951s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[5.951s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[5.951s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[5.952s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[5.952s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[5.952s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[5.953s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.953s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.953s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.954s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.954s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[5.954s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[5.954s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/dds_fastrtps
+[5.955s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.960s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.961s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.962s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.962s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[5.963s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[5.964s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[5.965s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[5.965s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.966s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[5.968s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[5.971s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[5.972s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[5.973s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[5.974s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[5.974s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[5.975s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[5.976s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[5.977s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[5.980s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[5.981s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[5.982s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[5.983s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs-2.3.0-py3.8.egg-info
+[5.984s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs-2.3.0-py3.8.egg-info/top_level.txt
+[5.985s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs-2.3.0-py3.8.egg-info/dependency_links.txt
+[5.986s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs-2.3.0-py3.8.egg-info/SOURCES.txt
+[5.987s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs-2.3.0-py3.8.egg-info/PKG-INFO
+[5.991s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs
+[5.993s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/__init__.py
+[5.993s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg
+[5.994s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_scan.py
+[5.995s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/__init__.py
+[5.995s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[5.995s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[5.995s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg/_velodyne_packet.py
+[5.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[5.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[5.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.178s] Listing '/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs'...
+[6.179s] Listing '/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/msg'...
+[6.206s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.207s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[6.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[6.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[6.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[6.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[6.208s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[6.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[6.209s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[6.210s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[6.210s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[6.211s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[6.212s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[6.213s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[6.215s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[6.219s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[6.220s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[6.221s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[6.221s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[6.222s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.222s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.222s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[6.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.223s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.224s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.224s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[6.224s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.224s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.225s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.225s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[6.245s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.246s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[6.246s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.247s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[6.247s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.247s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.253s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.259s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.260s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.266s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.267s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[6.267s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[6.267s] -- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[6.510s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_msgs

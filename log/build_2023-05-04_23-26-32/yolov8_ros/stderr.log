@@ -1,0 +1,5 @@
+  File "/workspaces/isaac_ros-dev/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py", line 92
+    convert image + predict
+            ^
+SyntaxError: invalid syntax
+

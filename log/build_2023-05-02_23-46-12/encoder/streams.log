@@ -1,0 +1,40 @@
+[5.154s] Invoking command in '/workspaces/isaac_ros-dev/src/encoder': PYTHONPATH=/workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /workspaces/isaac_ros-dev/build/encoder/build install --prefix /workspaces/isaac_ros-dev/install/encoder --record /workspaces/isaac_ros-dev/build/encoder/install.log --single-version-externally-managed
+[15.277s] running egg_info
+[15.278s] creating ../../build/encoder/encoder.egg-info
+[15.278s] writing ../../build/encoder/encoder.egg-info/PKG-INFO
+[15.278s] writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+[15.279s] writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+[15.279s] writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+[15.279s] writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+[15.279s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[15.280s] reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[15.280s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[15.280s] running build
+[15.280s] running build_py
+[15.281s] creating /workspaces/isaac_ros-dev/build/encoder/build
+[15.281s] creating /workspaces/isaac_ros-dev/build/encoder/build/lib
+[15.281s] creating /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+[15.281s] copying encoder/__init__.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+[15.282s] copying encoder/encoder_rm.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+[15.282s] copying encoder/encoder_node.py -> /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder
+[15.282s] running install
+[15.282s] running install_lib
+[15.283s] creating /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+[15.283s] copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/__init__.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+[15.283s] copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/encoder_rm.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+[15.284s] copying /workspaces/isaac_ros-dev/build/encoder/build/lib/encoder/encoder_node.py -> /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder
+[15.284s] byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/__init__.py to __init__.cpython-38.pyc
+[15.284s] byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/encoder_rm.py to encoder_rm.cpython-38.pyc
+[15.284s] byte-compiling /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder/encoder_node.py to encoder_node.cpython-38.pyc
+[15.285s] running install_data
+[15.285s] creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index
+[15.285s] creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index
+[15.286s] creating /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index/packages
+[15.286s] copying resource/encoder -> /workspaces/isaac_ros-dev/install/encoder/share/ament_index/resource_index/packages
+[15.286s] copying package.xml -> /workspaces/isaac_ros-dev/install/encoder/share/encoder
+[15.286s] running install_egg_info
+[15.287s] Copying ../../build/encoder/encoder.egg-info to /workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages/encoder-0.0.0-py3.8.egg-info
+[15.287s] running install_scripts
+[15.287s] Installing encoder_rm script to /workspaces/isaac_ros-dev/install/encoder/lib/encoder
+[15.287s] writing list of installed files to '/workspaces/isaac_ros-dev/build/encoder/install.log'
+[15.329s] Invoked command in '/workspaces/isaac_ros-dev/src/encoder' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/install/encoder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /workspaces/isaac_ros-dev/build/encoder/build install --prefix /workspaces/isaac_ros-dev/install/encoder --record /workspaces/isaac_ros-dev/build/encoder/install.log --single-version-externally-managed

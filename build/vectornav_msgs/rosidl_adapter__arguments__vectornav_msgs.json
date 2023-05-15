@@ -1,0 +1,16 @@
+{
+  "package_name": "vectornav_msgs",
+  "non_idl_tuples": [
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/CommonGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/TimeGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/ImuGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/GpsGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/AttitudeGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/InsGroup.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/TimeUTC.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/DOP.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/VpeStatus.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/TimeStatus.msg",
+    "/workspaces/isaac_ros-dev/src/sdv_localization/vectornav/vectornav_msgs:msg/InsStatus.msg"
+  ]
+}

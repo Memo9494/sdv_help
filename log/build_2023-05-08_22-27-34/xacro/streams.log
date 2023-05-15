@@ -1,0 +1,61 @@
+[0.745s] Invoking command in '/workspaces/isaac_ros-dev/build/xacro': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/xacro -- -j8 -l8
+[0.938s] Built target ament_cmake_python_copy_xacro_setup
+[0.944s] Built target ament_cmake_python_copy_xacro
+[2.857s] running install_scripts
+[2.926s] running egg_info
+[2.996s] writing xacro.egg-info/PKG-INFO
+[2.997s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[2.999s] writing entry points to xacro.egg-info/entry_points.txt
+[3.000s] writing top-level names to xacro.egg-info/top_level.txt
+[3.084s] running egg_info
+[3.212s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[3.214s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[3.247s] writing xacro.egg-info/PKG-INFO
+[3.249s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[3.252s] writing entry points to xacro.egg-info/entry_points.txt
+[3.253s] writing top-level names to xacro.egg-info/top_level.txt
+[3.375s] Built target ament_cmake_python_build_xacro_egg
+[3.383s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[3.385s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[3.496s] Installing xacro script to scripts
+[3.646s] Built target ament_cmake_python_build_xacro_scripts
+[4.665s] Invoked command in '/workspaces/isaac_ros-dev/build/xacro' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/xacro -- -j8 -l8
+[5.324s] Invoking command in '/workspaces/isaac_ros-dev/build/xacro': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/xacro
+[5.426s] -- Install configuration: ""
+[5.426s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/completion.bash
+[5.426s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/pythonpath.sh
+[5.427s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/pythonpath.dsv
+[5.427s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info
+[5.428s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/entry_points.txt
+[5.428s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/top_level.txt
+[5.428s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/dependency_links.txt
+[5.429s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/SOURCES.txt
+[5.429s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro-2.0.8-py3.8.egg-info/PKG-INFO
+[5.429s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/xacro/
+[5.429s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/lib/xacro//xacro
+[5.430s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro
+[5.430s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/__init__.py
+[5.430s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/substitution_args.py
+[5.430s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/color.py
+[5.431s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/xmlutils.py
+[5.431s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro/cli.py
+[5.612s] Listing '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages/xacro'...
+[5.616s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/bin/
+[5.616s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/bin//xacro
+[5.616s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro
+[5.617s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro
+[5.617s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/ament_prefix_path.sh
+[5.617s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/ament_prefix_path.dsv
+[5.619s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/path.sh
+[5.620s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/environment/path.dsv
+[5.620s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.bash
+[5.620s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.sh
+[5.621s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.zsh
+[5.622s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/local_setup.dsv
+[5.622s] -- Installing: /workspaces/isaac_ros-dev/install/xacro/share/xacro/package.dsv
+[5.622s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/ament_index/resource_index/packages/xacro
+[5.623s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacro-extras.cmake
+[5.623s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacroConfig.cmake
+[5.625s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/cmake/xacroConfig-version.cmake
+[5.637s] -- Up-to-date: /workspaces/isaac_ros-dev/install/xacro/share/xacro/package.xml
+[5.638s] Invoked command in '/workspaces/isaac_ros-dev/build/xacro' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/yolov8_bringup:/workspaces/isaac_ros-dev/install/multisense_ros:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/vision_msgs_rviz_plugins:/workspaces/isaac_ros-dev/install/vision_msgs:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/vectornav:/workspaces/isaac_ros-dev/install/sdv_localization:/workspaces/isaac_ros-dev/install/vectornav_msgs:/workspaces/isaac_ros-dev/install/slam_toolbox:/workspaces/isaac_ros-dev/install/sdv_msg:/workspaces/isaac_ros-dev/install/sdv_localization_msgs:/workspaces/isaac_ros-dev/install/pointcloud_to_laserscan:/workspaces/isaac_ros-dev/install/my_package:/workspaces/isaac_ros-dev/install/multisense_msgs:/workspaces/isaac_ros-dev/install/multisense_lib:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam:/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/yolov8_ros:/workspaces/isaac_ros-dev/install/xbox_controller:/workspaces/isaac_ros-dev/install/panel:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/encoder:/opt/ros/humble/install /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/xacro

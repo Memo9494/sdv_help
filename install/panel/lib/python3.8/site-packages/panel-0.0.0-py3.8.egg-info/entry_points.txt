@@ -1,0 +1,2 @@
+[console_scripts]
+panel_module = panel.panel_module:main
